@@ -76,7 +76,7 @@
     Valeur la plus proche de 0 : <%= plusProcheDeZero %>
     </p>
 
-    <h2>Exercice 7 : La valeur la plus proche de 0 (2° version)</h2>
+    <h2>Exercice 7 : La valeur la plus proche de 0</h2>
     <p>
     <% int plusProcheDeZeroV2 = valeurs[0];
        for (int valeur : valeurs) {
@@ -85,7 +85,7 @@
            }
        }
     %>
-    Valeur la plus proche de 0 (2° version) : <%= plusProcheDeZeroV2 %>
+    Valeur la plus proche de 0 : <%= plusProcheDeZeroV2 %>
     </p>
 
 <% } %>
