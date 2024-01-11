@@ -42,27 +42,7 @@
 <p>Extraire les films dont l'année est supérieur à l'année 2000 et inférieur à 2015.</p>
 
 <h2>Exercice 2 : Année de recherche</h2>
-    %>
-    <form action="#" method="post">
-        <p>Choisissez une année pour la recherche : <input type="text" name="anneeRecherche">
-        <input type="submit" value="Rechercher">
-    </form>
-    <%
-    String anneeRecherche = request.getParameter("anneeRecherche");
-    if (anneeRecherche != null) {
-        int annee = Integer.parseInt(anneeRecherche);
-        out.println("<h2>Résultats de recherche pour l'année : " + annee + "</h2>");
-        for (Film film : films) {
-            if (film.annee == annee) {
-                out.println("id : " + film.id + ", titre : " + film.titre + "<br>");
-            }
-        }
-    }
-
-    // Pour les Exercices 3 et 4, vous auriez besoin de fonctionnalités pour modifier et ajouter des données,
-    // ce qui n'est pas possible avec un tableau statique en Java dans un environnement JSP.
-    // Normalement, vous utiliseriez une base de données pour ces fonctionnalités.
-    %>
+<p>Créer un champ de saisie permettant à l'utilisateur de choisir l'année de sa recherche.</p>
 
 <h2>Exercice 3 : Modification du titre du film</h2>
 <p>Créer un fichier permettant de modifier le titre d'un film sur la base de son ID (ID choisi par l'utilisateur)</p>
