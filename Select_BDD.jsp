@@ -42,7 +42,11 @@
 <p>Extraire les films dont l'année est supérieur à l'année 2000 et inférieur à 2015.</p>
 
 <h2>Exercice 2 : Année de recherche</h2>
-<p>Créer un champ de saisie permettant à l'utilisateur de choisir l'année de sa recherche.</p>
+<p><form action="#" method="post">
+    <p>Choisissez une année pour la recherche : <input type="text" name="anneeRecherche">
+    <input type="submit" value="Rechercher">
+</form>
+</p>
 
 <h2>Exercice 3 : Modification du titre du film</h2>
 <p>Créer un fichier permettant de modifier le titre d'un film sur la base de son ID (ID choisi par l'utilisateur)</p>
